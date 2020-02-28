@@ -1,0 +1,19 @@
+{
+    "name": "nekedio/test-rep",
+    "description": "test-rep and linter",
+    "bin": ["./bin/runFile"],
+    "autoload": {
+        "files": ["src/progFile.php"]
+    },
+    "authors": [
+        {
+            "name": "Nikita Ionov",
+            "email": "ionov.goo@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {"phpcs": "phpcs"},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    }
+}
